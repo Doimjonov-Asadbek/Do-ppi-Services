@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DoppiUz</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email *</string>
+    <string name="password">Password *</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+</resources>
