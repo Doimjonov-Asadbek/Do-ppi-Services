@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854505114096",
+    "project_id": "doppiuz-f38cb",
+    "storage_bucket": "doppiuz-f38cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854505114096:android:ed0babd835651861e9b535",
+        "android_client_info": {
+          "package_name": "app.app.doppiuz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854505114096-f2tvi03le4h8i6mk4kmcfnir69uvdfeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmKGTbmYktpBEE9KOTL79rSdFXrNDI3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854505114096-f2tvi03le4h8i6mk4kmcfnir69uvdfeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
