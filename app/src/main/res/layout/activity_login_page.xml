@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/ediLogEmail"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="25dp"
@@ -60,7 +60,7 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/ediLogPass"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="25dp"
@@ -72,20 +72,20 @@
         android:paddingEnd="15dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/ediLogEmail"
         tools:ignore="Autofill" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkLogRe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/remember_me"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/ediLogPass" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogSignIn"
         style="@android:style/Widget.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -95,10 +95,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintTop_toBottomOf="@+id/checkLogRe" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtLogForgatPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -106,10 +106,10 @@
         android:text="@string/forget_password"
         android:textColor="@color/buttons"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogSignIn" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtLogSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -117,10 +117,10 @@
         android:text="@string/don_t_have_an_account_sign_up"
         android:textColor="@color/buttons"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogSignIn" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnLogFace"
         style="@android:style/Widget.Button"
         android:layout_width="0dp"
         android:layout_height="45dp"
@@ -138,11 +138,11 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogSignUp"
         tools:ignore="RtlHardcoded" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLogGoogle"
         style="@android:style/Widget.Button"
         android:layout_width="0dp"
         android:layout_height="45dp"
@@ -161,11 +161,11 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogFace"
         tools:ignore="RtlHardcoded" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnLogApple"
         style="@android:style/Widget.Button"
         android:layout_width="0dp"
         android:layout_height="45dp"
@@ -184,6 +184,6 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogGoogle"
         tools:ignore="RtlHardcoded" />
 </androidx.constraintlayout.widget.ConstraintLayout>
